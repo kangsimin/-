@@ -27,9 +27,9 @@ int name(){
 	char s10[] = "C:\\Program Files\\NetClassClient8\\e9.exe";
 
 
-	//Å×½ºÆ® Æú´õ¸¦ ¸¸µç´Ù.
+	//í…ŒìŠ¤íŠ¸ í´ë”ë¥¼ ë§Œë“ ë‹¤.
 	
-	//ÀÌ¸§À» ¹Ù²Ù°í °á°ú¸¦ ¸®ÅÏ ¹Ş´Â´Ù.
+	//ì´ë¦„ì„ ë°”ê¾¸ê³  ê²°ê³¼ë¥¼ ë¦¬í„´ ë°›ëŠ”ë‹¤.
 	int nResult1 = rename( e1, s1 );
 	int nResult2 = rename( e2, s2 );
 	int nResult3 = rename( e3, s3 );
@@ -45,11 +45,11 @@ int name(){
 	
 	if( nResult1&nResult2&nResult3 == 0 )
 	{
-		printf( "ÀÌ¸§ º¯°æ ¼º°ø" );
+		printf( "ì´ë¦„ ë³€ê²½ ì„±ê³µ" );
 	}
 	else
 	{
-		perror( "ÀÌ¸§ º¯°æ ½ÇÆĞ - " );
+		perror( "ì´ë¦„ ë³€ê²½ ì‹¤íŒ¨ - " );
 	}
 
 	return 0;
@@ -82,6 +82,6 @@ int main()
 
 	//system("taskkill /f /im Explorer.exe");
 	//fclose(fp);
-	system('º¹±¸.exe');
+	//system('ë³µêµ¬.exe');
 	return 0;
 }
